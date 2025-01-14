@@ -1,0 +1,17 @@
+body {
+  margin: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#video-player {
+  width: 540px;
+}
+
+@media screen and (max-width: 540px) {
+  #video-player {
+    width: 300px;
+  }
+}
